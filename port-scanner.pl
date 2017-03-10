@@ -1,7 +1,6 @@
 #!/usr/bin/perl
 use strict;
 use IO::Socket::PortState qw(check_ports);
-
 my $hostfile = 'hosts.txt';
 my %port_hash = (
         tcp => {
